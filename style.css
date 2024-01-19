@@ -9,7 +9,7 @@
 .caja {
   width: 50%;
   height: 100%;
-  background: purple;
+  background: linear-gradient(purple, white);
   border-radius: 10rem;
   display: flex;
   justify-content: center;
@@ -18,11 +18,12 @@
 .caja2 {
   width: 50%;
   height: 100%;
-  background: white;
+  background: radial-gradient(black, purple, grey);
   border-radius: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .intro {
   outline: none;
@@ -30,24 +31,27 @@
   width: 70%;
 }
 .none {
-  color: white;
+  color: black;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 70px;
   text-decoration: none;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .caja:visited {
-  color: grey;
+  color: black;
+  background: radial-gradient(purple, white, purple);
 }
 .caja:hover {
   background: green;
-  color: red;
+  color: black;
+  background: radial-gradient(purple, white, purple);
 }
 .caja2:hover {
-  background: black;
+  background: radial-gradient(white, black);
   color: white;
 }
 .caja2 input:focus {
-  background: crimson;
+  background: linear-gradient(white, crimson);
   color: white;
 }
