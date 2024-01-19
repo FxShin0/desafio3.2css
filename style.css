@@ -1,0 +1,53 @@
+.contenedor {
+  width: 99vw;
+  height: 98vh;
+  background: grey;
+  border-radius: 1rem;
+  display: flex;
+  gap: 10px;
+}
+.caja {
+  width: 50%;
+  height: 100%;
+  background: purple;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja2 {
+  width: 50%;
+  height: 100%;
+  background: white;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  outline: none;
+  height: 5%;
+  width: 70%;
+}
+.none {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  text-decoration: none;
+}
+.caja:visited {
+  color: grey;
+}
+.caja:hover {
+  background: green;
+  color: red;
+}
+.caja2:hover {
+  background: black;
+  color: white;
+}
+.caja2 input:focus {
+  background: crimson;
+  color: white;
+}
